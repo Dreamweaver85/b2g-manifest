@@ -9,7 +9,7 @@
            fetch="http://android.git.linaro.org/git-ro/" />
   <remote name="mozilla"
     fetch="git://github.com/mozilla/" />
-  <remote name="aokp"
+  <remote name="dc"
     fetch="git://github.com/dreamcaster85/" />
   <remote name="mozillaorg" 
       fetch="https://git.mozilla.org/releases" />
@@ -100,7 +100,8 @@
   <project path="system/vold" name="platform/system/vold" />
 
   <!-- HTC Evo 4g specific things -->
-  <project path="device/htc/supersonic" name="device_htc_supersonic" remote="aokp" revision="ics" />
+  <project path="device/htc/supersonic" name="device_htc_supersonic" remote="dc" revision="ics" />
+  <project path="vendor/htc" name="AOKP/vendor_htc" remote="dc" revision="ics" />
   
 
 </manifest>
