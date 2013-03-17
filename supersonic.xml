@@ -11,6 +11,8 @@
     fetch="git://github.com/mozilla/" />
   <remote name="dc"
     fetch="git://github.com/dreamcaster85/" />
+  <remote name="aokp"
+    fetch="git://github.com/aokp/" />
   <remote name="mozillaorg" 
       fetch="https://git.mozilla.org/releases" />
   <default revision="refs/tags/android-4.0.4_r1.2"
@@ -101,7 +103,7 @@
 
   <!-- HTC Evo 4g specific things -->
   <project path="device/htc/supersonic" name="device_htc_supersonic" remote="dc" revision="ics" />
-  <project path="vendor/htc" name="AOKP/vendor_htc" remote="dc" revision="ics" />
+  <project path="vendor/htc" name="vendor_htc" remote="aokp" revision="ics" />
   
 
 </manifest>
