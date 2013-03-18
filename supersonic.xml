@@ -7,8 +7,10 @@
           fetch="git://github.com/mozilla-b2g/" />
   <remote  name="linaro"
            fetch="git://codeaurora.org" />
- <remote  name="aokp"
-           fetch="git://github.com/AOKP/" />
+ <remote  name="gh"
+           fetch="https://github.com/"
+           review="gerrit.aokp.co"
+           revision="ics" />
   <remote name="mozilla"
     fetch="git://github.com/mozilla/" />
   <remote name="dc"
