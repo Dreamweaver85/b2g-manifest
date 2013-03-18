@@ -6,7 +6,7 @@
   <remote name="b2g"
           fetch="git://github.com/mozilla-b2g/" />
   <remote  name="linaro"
-           fetch="http://ec2-54-242-196-100.compute-1.amazonaws.com/git-ro/" />
+           fetch="git://codeaurora.org" />
   <remote name="mozilla"
     fetch="git://github.com/mozilla/" />
   <remote name="dc"
