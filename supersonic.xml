@@ -38,16 +38,15 @@
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" remote="gh" revision="ics" />
   <project path="cts" name="platform/cts" remote="aosp" revision="refs/tags/android-4.0.4_r1.2" />
   <project path="development" name="AOKP/platform_development" remote="gh" revision="ics" />
-  <project path="device/generic/goldfish" name="device/generic/goldfish" remote="aosp" revision="refs/tags/android-4.0.4_r1.2" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"  />
   <project path="device/htc/supersonic" name="AOKP/device_htc_supersonic" remote="gh" revision="ics" />
-  <project path="docs/source.android.com" name="platform/docs/source.android.com" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="external/android-mock" name="platform/external/android-mock" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="external/antlr" name="platform/external/antlr" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="external/apache-harmony" name="platform/external/apache-harmony" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="external/apache-http" name="platform/external/apache-http"  remote="aosp" revision="refs/tags/android-4.0.4_r1.2" />
   <project path="external/apache-xml" name="platform/external/apache-xml"  remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
+  <project path="external/apriori" name="platform_external_apriori" remote="b2ggithub" revision="master" />
   <project path="external/astl" name="platform/external/astl" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="external/bash" name="CyanogenMod/android_external_bash" remote="gh" revision="ics" />
   <project path="external/bison" name="platform/external/bison" remote="aosp" revision="refs/tags/android-4.0.4_r1.2" />
@@ -68,7 +67,8 @@
   <project path="external/dropbear" name="platform/external/dropbear" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="external/e2fsprogs" name="AOKP/external_e2fsprogs" remote="gh" revision="ics" />
   <project path="external/easymock" name="platform/external/easymock" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
-  <project path="external/elfutils" name="AOKP/external_elfutils" remote="gh" revision="ics" />
+  <project path="external/elfcopy" name="platform_external_elfcopy" remote="b2ggithub" revision="master" />
+  <project path="external/elfutils" name="platform_external_elfutils" remote="b2ggithub" revision="master" />
   <project path="external/embunit" name="AOKP/external_embunit" remote="gh" revision="ics" />
   <project path="external/emma" name="platform/external/emma" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="external/esd" name="platform/external/esd" remote="aosp" revision="refs/tags/android-4.0.4_r1.2" />
@@ -126,6 +126,7 @@
   <project path="external/nist-sip" name="platform/external/nist-sip" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="external/oauth" name="platform/external/oauth" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="external/opencv" name="platform/external/opencv" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
+  <project path="external/opensans" name="platform_external_opensans" remote="b2g" revision="master" />
   <project path="external/openssl" name="AOKP/external_openssl" remote="gh" revision="ics" />
   <project path="external/openvpn" name="CyanogenMod/android_external_openvpn" remote="gh" revision="ics" />
   <project path="external/oprofile" name="CyanogenMod/android_external_oprofile" remote="gh" revision="ics"  />
@@ -140,6 +141,7 @@
   <project path="external/quake" name="platform/external/quake" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="external/replicaisland" name="platform/external/replicaisland" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="external/safe-iop" name="platform/external/safe-iop" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
+   <project path="external/screencap-gonk" name="screencap-gonk" remote="b2g" revision="master" />
   <project path="external/skia" name="AOKP/external_skia" remote="gh" revision="ics" />
   <project path="external/sonivox" name="AOKP/external_sonivox" remote="gh" revision="ics" />
   <project path="external/speex" name="platform/external/speex" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
