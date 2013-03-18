@@ -93,7 +93,7 @@
   <project path="system/vold" name="platform/system/vold" revision="3ad9072a5d6f6bda32123b367545649364e3c11d"/>
 
    <!-- HTC Evo 4g specific things -->
-  <project path="device/htc/supersonic" name="device_htc_supersonic" remote="dc" revision="ics" />
+  <project path="device/htc/supersonic" name="device_htc_supersonic" remote="aokp" revision="ics" />
   <project path="vendor/htc" name="vendor_htc" remote="aokp" revision="ics" />
 
 </manifest>
