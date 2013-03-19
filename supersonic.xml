@@ -11,6 +11,9 @@
            fetch="https://github.com/"
            review="gerrit.aokp.co"
            revision="ics" />
+           <remote  name="g"
+           fetch="https://github.com/
+           revision="ics" />
   <remote name="mozilla"
     fetch="git://github.com/mozilla/" />
   <remote name="b2ggithub"
@@ -76,7 +79,7 @@
   <project path="external/openssl" name="AOKP/external_openssl" remote="gh" revision="ics" />
   <project path="external/protobuf" name="platform/external/protobuf" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="external/safe-iop" name="platform/external/safe-iop" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
-   <project path="external/screencap-gonk" name="screencap-gonk" remote="b2g" revision="master" />
+  <project path="external/screencap-gonk" name="screencap-gonk" remote="b2g" revision="master" />
   <project path="external/skia" name="AOKP/external_skia" remote="gh" revision="ics" />
   <project path="external/sonivox" name="AOKP/external_sonivox" remote="gh" revision="ics" />
   <project path="external/speex" name="platform/external/speex" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
@@ -94,13 +97,13 @@
   <project path="external/xmlwriter" name="platform/external/xmlwriter" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="external/yaffs2" name="AOKP/external_yaffs2" remote="gh" revision="ics" />
   <project path="external/zlib" name="AOKP/external_zlib" remote="gh" revision="ics" />
-  <project path="frameworks/base" name="AOKP/frameworks_base" remote="gh" revision="ics" />
-  <project path="frameworks/compile/libbcc" name="AOKP/frameworks_compile_libbcc" remote="gh" revision="ics" />
+  <project path="frameworks/base" name="GenetICS/frameworks_base" remote="g" revision="ics" />
+  <project path="frameworks/compile/libbcc" name="GenetICS/frameworks_compile_libbcc" remote="g" revision="ics" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="frameworks/compile/slang" name="CyanogenMod/android_frameworks_compile_slang" remote="gh" revision="ics" />
-  <project path="frameworks/ex" name="AOKP/frameworks_ex" remote="gh" revision="ics" />
+  <project path="frameworks/ex" name="GenetICS/frameworks_ex" remote="g" revision="ics" />
   <project path="frameworks/support" name="platform/frameworks/support" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
-  <project path="hardware/alsa/sound" name="AOKP/hardware_alsa_sound" remote="gh" revision="ics" />
+  <project path="hardware/alsa/sound" name="AOKP/hardware_alsa_sound" remote="g" revision="ics" />
   <project path="hardware/atheros/wlan" name="CyanogenMod/android_hardware_atheros_wlan" remote="gh" revision="ics" />
   <project path="hardware/cm" name="AOKP/hardware_cm" remote="gh" revision="ics" />
   <project path="hardware/broadcom/wlan" name="AOKP/hardware_broadcom_wlan" remote="gh" revision="ics" />
